@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: monospace;
+}
+h3{
+    font-size: large;
+}
+#icon{
+    font-size: x-small;
+}
+#nana{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#butt{
+    font-size: 25px;
+    color: #000;
+    background-color: pink;
+    padding: 15px;
+    border-radius: 20px;
+}
+#main #naat{
+    position: absolute;
+    top: 14%;
+    left: 6%;
+    border-radius: 20px;
+}
+#main #naat1{
+    position: absolute;
+    bottom: 14%;
+    right: 6%;
+    border-radius: 20px;
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+#main h3{
+    text-align: center;
+}
+#nav{
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+#nav img{
+    width: 150px;
+}
+#nav2{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav3{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav3 button{
+    color: #000;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5px;
+}
+#bodd{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /* background-color: pink; */
+    align-items: center;
+    justify-content: center;
+}
+#part1{
+    /* background-color: blueviolet; */
+    text-align: center;
+    align-items: center;
+}
+#bodd #part1 h1{
+    font-size: 100px; 
+}
